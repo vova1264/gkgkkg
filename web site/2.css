@@ -1,0 +1,71 @@
+html { 
+background: #e6e9e9; 
+background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%); 
+-webkit-font-smoothing: antialiased; 
+} 
+
+body { 
+background: #fff; 
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.06); 
+color: #545454; 
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+font-size: 16px; 
+line-height: 1.5; 
+margin: 0 auto; 
+max-width: 800px; 
+padding: 2em 2em 4em; 
+} 
+
+h1, h2, h3, h4, h5, h6 { 
+color: #222; 
+font-weight: 600; 
+line-height: 1.3; 
+} 
+
+h2 { 
+margin-top: 1.3em; 
+} 
+
+a { 
+color: #0083e8; 
+} 
+
+b, strong { 
+font-weight: 600; 
+} 
+
+samp { 
+display: none; 
+} 
+
+@keyframes colorize { 
+0% { 
+-webkit-filter: grayscale(100%); 
+filter: grayscale(100%); 
+} 
+100% { 
+-webkit-filter: grayscale(0%); 
+filter: grayscale(0%); 
+} 
+}
+
+.title{
+    background: #ffffff url(%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/l_86e1a696.jpg) no-repeat 5% 50%;
+font-size: 36px;
+padding-top: 10px;
+text-align: center;
+}
+
+.button{
+ text-decoration:none; 
+ text-align:center; 
+ padding:11px 32px; 
+ border:none; 
+  
+ font:15px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#000000; 
+ background:#ffffff; 
+ -webkit-box-shadow:inset 0px 0px 1px #ffffff;  -moz-box-shadow:inset 0px 0px 1px #ffffff;  box-shadow:inset 0px 0px 1px #ffffff;  
+  
+  }
